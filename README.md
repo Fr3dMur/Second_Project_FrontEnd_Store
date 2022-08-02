@@ -7,3 +7,5 @@ This is a project for improving my HTML annd CSS knoledge, its like a e-commerce
 Its just a Web Pilot page
 
 In this project i am using and practicing BEM metodology for the CSS
+
+I'm using Netlify to host my projects, To watch the site click https://secondprojectfr3dmur.netlify.app/
