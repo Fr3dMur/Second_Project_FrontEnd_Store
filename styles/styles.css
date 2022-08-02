@@ -56,3 +56,50 @@ h2 {font-size: 3.2rem;}
 h3 {font-size: 2.4rem ;}
 
 /* Utilidades */
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo{
+    margin: 3rem 0;
+}
+
+/* NAVEGACION */
+.navegacion{
+    background-color: var(--primarioOscuro);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion__enlace{
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 3rem;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--secundario);
+}
+
+/* MAIN INFORMATION */
+
+/* FOOTER */
+.footer{
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__texto{
+    font-family: var(--fuentePrincipal);
+    font-size: 2.2rem;
+    color: var(--blanco);
+}
