@@ -29,24 +29,28 @@
     <!-- MAIN SECTION -->
     <main class="contenedor">
         <h1>React JS</h1>
-        
-        <div class="camisa">
-            <img src="img/3.jpg" alt="Camisa de React JS" class="camisa__imagen">
-            <div class="camisa__contenido">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate rem temporibus, molestias accusamus ducimus impedit et quam quisquam quidem eaque rerum? Atque ut vero amet laborum iste possimus quisquam.</p>
 
-                <form action="" class="contenido__formulario">
+        <div class="camisa">
+            <div class="camisa__contenido">
+                <img src="img/3.jpg" alt="Camisa de React JS" class="camisa__imagen">
+            </div>
+            <div class="camisa__contenido">
+                <h2>Camiseta React JS</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate quidem quibusdam ducimus similique rem? Iste nihil adipisci suscipit odio magni magnam neque saepe sapiente eaque ducimus, dolorem repudiandae a?   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate rem temporibus, molestias accusamus ducimus impedit et quam quisquam quidem eaque rerum? Atque ut vero amet laborum iste possimus quisquam.</p>
+
+                <form action="" class="formulario">
                     <label for="">Seleccione su talla
-                        <select name="" id="">
+                    </label>
+                        <select name="" id="" class="formulario__talla campo">
                             <option value="" disabled  selected>Pequeña (S)</option>
                             <option value="">Mediana (M)</option>
                             <option value="">Grande (L)</option>
                             <option value="">Extra Grande (XL)</option>
                         </select>
+                    <label for=""> Cantidad
                     </label>
-                    <label for="">
-                        <input type="number" class="contenido__formulario-cantidades" placeholder="Cantidad" min="1">
-                    </label>
+                        <input type="number" class="campo formulario__cantidades" placeholder="Cantidad" min="1">
+                    <input type="submit" value="Agregar al carrito" class="formulario__submit">
                 </form>
             </div>
         </div>
