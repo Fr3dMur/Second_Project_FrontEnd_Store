@@ -226,6 +226,18 @@ main div.contenedor{
     }
 }
 
+/* PRODUCTOS PAGE STYLES */
+label{
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+}
+
+.contenido__formulario-cantidades{
+    text-align: center;
+    width: 10rem;
+    
+}
+
 /*** FOOTER ***/
 .footer{
     background-color: var(--primarioOscuro);
